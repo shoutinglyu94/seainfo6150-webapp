@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import SlugButton from "./SlugButton.jsx";
 
 class ArticleListItem extends React.Component {
   constructor(props) {
@@ -18,9 +19,7 @@ class ArticleListItem extends React.Component {
         <p>{this.state.shortText}</p>
         <p>
           {this.state.pubDate}
-          <button onClick={() => alert(this.props.article.slug)}>
-            show article slug
-          </button>
+          <SlugButton slug = {this.props.article.slug}/>
         </p>
       </div>
     );
