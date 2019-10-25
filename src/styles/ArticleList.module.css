@@ -1,0 +1,12 @@
+.ul {
+	border: 2px dashed black;
+	background-color: grey;
+	list-style: none;
+	padding: 50px;
+}
+
+.li {
+	border: 2px solid #A00000;
+	margin-top: 10px;
+	background-color: #F5F5F5;
+}

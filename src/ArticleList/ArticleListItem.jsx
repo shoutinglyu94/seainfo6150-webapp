@@ -14,13 +14,10 @@ class ArticleListItem extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>{this.state.title}</h1>
+      <div className="detail">
+        <h1 className = "title">{this.state.title}</h1>
         <p>{this.state.shortText}</p>
-        <p>
-          {this.state.pubDate}
-          <SlugButton slug = {this.props.article.slug}/>
-        </p>
+        <p className = "time">{this.state.pubDate} <SlugButton article = {this.props.article}/></p>
       </div>
     );
   }

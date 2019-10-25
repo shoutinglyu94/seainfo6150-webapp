@@ -5,15 +5,14 @@ class SlugButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      buttonText: "show article slug",
-      slug: props.slug,
+      buttonText: props.article.author,
+      slug: props.article.slug,
     };
   }
 
   render() {
     return (
-
-      <button onClick={() => alert(this.props.slug)}>
+      <button className = "btn" onClick={() => alert(this.props.article.slug)}>
            {this.state.buttonText}
       </button>
     );
