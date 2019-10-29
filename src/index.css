@@ -1,6 +1,7 @@
 @import './styles/ArticleList.module.css';
 @import './styles/ArticleListItem.module.css';
 @import './styles/SlugButton.module.css';
+@import './styles/ArticleImage.module.css';
 body {
   margin: 0;
   padding: 0;

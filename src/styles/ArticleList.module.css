@@ -6,6 +6,7 @@
 }
 
 .li {
+	background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0));
 	border: 2px solid #A00000;
 	margin-top: 10px;
 	background-color: #F5F5F5;

@@ -1,0 +1,9 @@
+img {
+	width: 200px;
+	height: auto;
+  	margin-left: auto;
+  	margin-right: auto;
+	border: 10px solid #B80000;
+	border-radius: 80%;
+	box-shadow: 25px, 25px, 50px, 50px, black; 
+}
