@@ -18,7 +18,7 @@ class ArticleListItem extends React.Component {
       <section>
         <ArticleImage article = {this.props.article} />
         <h1 className = "title">{this.state.title}</h1>
-        <p>{this.state.shortText}</p>
+        <p className = "text">{this.state.shortText}</p>
         <p className = "time">{this.state.pubDate} </p>
         <SlugButton className= "btn" article = {this.props.article} />
       </section>

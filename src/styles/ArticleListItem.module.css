@@ -18,3 +18,31 @@ section {
 	grid-template-rows: 25% 100px 100px 50px 100px;
 	padding: 10px;
 }
+
+@media screen and (min-width: 600px) {
+	.title {
+		font-size: 20px;
+	}
+	.btn {
+		font-size: 20px;
+	}
+  	.text{
+  		font-size: 15px;
+  		line-height: 20px;
+  	}
+}
+
+@media screen and (max-width: 600px) {
+	.title {
+		font-size: 15px;
+	}
+	.btn {
+		font-size: 15px;
+	}
+	.time {
+		font-size: 10px;
+	}
+  	.text{
+  		font-size: 10px;
+  	}
+}
