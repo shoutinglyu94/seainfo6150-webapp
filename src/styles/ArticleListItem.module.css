@@ -6,15 +6,15 @@
 	font-weight: bold;
 }
 
-.image {
-	background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0));
+.btn {
+	place-self: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 15px;
 }
 
 section {
 	display: grid;
-  	grid-template-columns: 300px auto;
-  	grid-gap: 10px;
-	padding: 25px 25px 25px 25px;
-	border-radius: 8px;
+	grid-template-rows: 25% 100px 100px 50px 100px;
+	padding: 10px;
 }
-

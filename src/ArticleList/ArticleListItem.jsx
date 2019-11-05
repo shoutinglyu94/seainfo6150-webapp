@@ -16,16 +16,11 @@ class ArticleListItem extends React.Component {
   render() {
     return (
       <section>
-        <div className= "image"> 
-          <ArticleImage article = {this.props.article} />
-        </div>
-        <article>
-          <h1 className = "title">{this.state.title}</h1>
-          <p>{this.state.shortText}</p>
-          <p className = "time">{this.state.pubDate} 
-            <SlugButton article = {this.props.article} />
-          </p>
-        </article>
+        <ArticleImage article = {this.props.article} />
+        <h1 className = "title">{this.state.title}</h1>
+        <p>{this.state.shortText}</p>
+        <p className = "time">{this.state.pubDate} </p>
+        <SlugButton className= "btn" article = {this.props.article} />
       </section>
     );
   }

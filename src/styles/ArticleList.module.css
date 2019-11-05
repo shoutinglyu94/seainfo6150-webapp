@@ -1,13 +1,19 @@
-.ul {
-	border: 2px dashed black;
+ul {
+	display: grid;
+  	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  	grid-gap: 1rem;
+
 	background-color: grey;
+	border: 2px dashed black;
+	border-radius: 15px;
 	list-style: none;
 	padding: 50px;
 }
 
-.li {
-	background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0));
-	border: 2px solid #A00000;
-	margin-top: 10px;
+li {
 	background-color: #F5F5F5;
+  	background-image: linear-gradient( to right, #A00000, #F5F5F5 10%);
+	border: 2px solid #A00000;
+	border-radius: 15px;
+	margin-top: 10px;
 }
